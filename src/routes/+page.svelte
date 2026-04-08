@@ -8,10 +8,16 @@
     import MenuB from '$lib/components/MenuB.svelte';
     import MenuC from '$lib/components/MenuC.svelte';
     import LocationHours from '$lib/components/LocationHours.svelte';
+	import Gallery from '$lib/components/Gallery.svelte';
+	import Gallery2 from '$lib/components/Gallery2.svelte';
+    import Gallery3 from '$lib/components/Gallery3.svelte';
 </script>
 
 <Hero />
 <HeroSlide />
+<Gallery3 />
+<Gallery2 />
+<Gallery />
 <Menu />
 <MenuB />
 <MenuC />
