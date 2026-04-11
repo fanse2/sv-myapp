@@ -4,6 +4,9 @@
 	import Footer from '$lib/components/Footer.svelte';
 	// import Header from '$lib/components/Header.svelte';
 	import Header2 from '$lib/components/Header2.svelte';
+	import FooterSimple from '$lib/components/FooterSimple.svelte';
+	import FooterSimpleDark from '$lib/components/FooterSimpleDark.svelte';
+	import ScrollToTop from '$lib/components/ScrollToTop.svelte';
 
 	let { children } = $props();
 </script>
@@ -13,4 +16,7 @@
 
 {@render children()}
 
+<ScrollToTop />
 <Footer />
+<FooterSimple />
+<FooterSimpleDark />
