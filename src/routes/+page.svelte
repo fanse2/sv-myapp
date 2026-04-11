@@ -12,6 +12,7 @@
 	import Gallery2 from '$lib/components/Gallery2.svelte';
     import Gallery3 from '$lib/components/Gallery3.svelte';
     import Staff from '$lib/components/Staff.svelte';
+    import Youtube from '$lib/components/Youtube.svelte';
 </script>
 
 <Hero />
@@ -19,6 +20,7 @@
 <Gallery3 />
 <Gallery2 />
 <Gallery />
+<Youtube />
 <Staff />
 <Menu />
 <MenuB />
